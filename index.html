@@ -26,6 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script>function randomNumber(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min};const STAR_COUNT = 1000;let result = "";for(let i = 0; i < STAR_COUNT; i++){result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(0, 7)}px ${randomNumber(0, 7)}px #fffff,`;}</script>
+
   <style>
     @font-face {
       font-family: 'Valorant';
@@ -44,7 +46,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between position-relative">
-
+      <div id="space"></div>
       <div class="logo">
         <h1 class="text-light valo"><a href="index.html"><span>Valorant</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -131,7 +133,7 @@
 
         <div class="row portfolio-container" data-aos="fade-up" >
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -140,7 +142,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -149,7 +151,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -158,7 +160,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -167,7 +169,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -176,7 +178,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -185,7 +187,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -194,7 +196,16 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="padding-bottom: 3%;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="padding-bottom: 2%;">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="padding-bottom: 2%;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -375,7 +386,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6" style="width: 50%;">
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
@@ -383,7 +394,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6" style="width: 50%;">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
@@ -395,11 +406,11 @@
 
         <div class="row">
 
-          <div class="col-lg-6 ">
+          <div class="col-lg-6">
             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.9937280146714!2d76.18039007372008!3d10.181164089933707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b081a29432d18f1%3A0x4af9af844e138c8e!2sSNMIMT%20ENGINEERING%20COLLEGE%2C%20ERNAKULAM!5e0!3m2!1sen!2sin!4v1681926989587!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
 
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -422,7 +433,7 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-          </div>
+          </div> -->
 
         </div>
 
