@@ -9,9 +9,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "Valorant";
+  background: linear-gradient(rgb(8, 1, 10) 10%, #000000 10%, #1E3449 55%, #180325);
+  color: white;
+}
+
+#portfolio{
+  /* background: linear-gradient(#1F3349, #000000); */
+  padding-top: 30px;
 }
 
 a {
@@ -95,9 +103,10 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(55, 142, 181, 0.9);
+  background: #FF4655;
   padding: 12px;
 }
+
 
 #header .logo h1 {
   font-size: 24px;
@@ -316,14 +325,15 @@ h6 {
 }
 
 .navbar-mobile {
+  align-content: center;
   position: fixed;
   overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(43, 111, 142, 0.9);
-  transition: 0.3s;
+  background: #FF4655;
+  transition: 1s;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -415,7 +425,7 @@ h6 {
 #hero {
   max-width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(69, 1, 89, 0.5), rgba(35, 1, 33, 0.342)), url("../img/hero-bg.jpg") top center;
+  background: linear-gradient(rgba(26, 1, 32, 0.392), rgba(69, 1, 89, 0), rgba(24, 1, 35, 0.572)), url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -585,11 +595,12 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
-  background-size: cover;
+  /* background-image: linear-gradient(#000000, #1F3349); */
+  /* background-size: cover; */
   padding: 60px 0;
   position: relative;
 }
+
 
 .about::before {
   content: "";
@@ -598,7 +609,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+  /* background: linear-gradient(0deg, #1F3349, #000000); */
   z-index: 9;
 }
 
@@ -836,7 +847,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -873,7 +884,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
+  transition: 5s;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -997,7 +1008,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1019,7 +1030,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 150px;
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -1181,14 +1192,15 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  padding-top: 30px;
   padding-bottom: 80px;
+  /* background: linear-gradient(#000000, #3c0953); */
 }
 
 .contact .info-box {
   color: #444444;
-  background: #fff;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(29, 110, 190, 0.6);
   padding: 20px 0 30px 0;
 }
 
@@ -1197,12 +1209,12 @@ section {
   color: #67b0d1;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f0f7fa;
+  border: 2px dotted #8eb5c5;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: #ad5b5b;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1307,7 +1319,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  /* background: #263f49; */
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1322,7 +1334,7 @@ section {
   margin-bottom: 15px;
   background: white;
   color: #2f4d5a;
-  border-top: 4px solid #67b0d1;
+  border-top: 4px solid #608ee4;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1345,7 +1357,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2f4d5a;
+  background: #35b3e9;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
