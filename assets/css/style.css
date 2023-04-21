@@ -1,15 +1,60 @@
-/**
-* Template Name: Squadfree
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+#reg{
+  padding: 20px;
+  animation: changeBackground 21s linear infinite;
+  color: black
+}
+@keyframes changeBackground {
+  0% {
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png");
+  }
+  25%{
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png");
+  }
+  33% {
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaae67d0ec5006ef5/63b8a78d28c9fb7a1880a9e2/Lotus_MapWebsite_Web.png");
+  }
+  59%{
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaae67d0ec5006ef5/63b8a78d28c9fb7a1880a9e2/Lotus_MapWebsite_Web.png");
+  }
+  67% {
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4485163c8c5873c/6131b23e9db95e7ff74b6393/Valorant_FRACTURE_Minimap_Alpha_web.png");
+  }92%{
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4485163c8c5873c/6131b23e9db95e7ff74b6393/Valorant_FRACTURE_Minimap_Alpha_web.png");
+  }
+  100% {
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png");
+  }
+}
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+.register{
+  padding: 1%;
+  border-radius: 0.6em;
+  color: #FF4655;
+  font-size: large;
+}
 
+.register:hover{
+  color: #e7515d;
+}
+
+.info{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: large;
+}
 
 body {
   font-family: "Valorant";
@@ -565,7 +610,7 @@ section {
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
-  color: #1076a1;
+  color: #FF4655;
   z-index: 2;
 }
 
@@ -577,7 +622,7 @@ section {
   transform: translate(-50%, -50%);
   width: 122px;
   height: 66px;
-  background: url(../img/section-title-bg.png) no-repeat;
+  /* background: url(../img/section-title-bg.png) no-repeat; */
   z-index: -1;
 }
 
@@ -667,7 +712,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #2f4d5a;
+  color: #FF4655;
   margin-bottom: 30px;
 }
 
@@ -677,7 +722,7 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #67b0d1;
+  background: #FF4655;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -693,7 +738,7 @@ section {
 }
 
 .about .content .about-btn:hover {
-  background: #7bbad7;
+  background: #e7515d;
 }
 
 .about .icon-boxes .icon-box {
